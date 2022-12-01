@@ -5,20 +5,21 @@
 
 | P  | Q  | P && Q | P \|\| Q |
 |:--:|:--:|:------:|:--------:|
-| T  | T  |        |          |
-| T  | F  |        |          |
-| F  | T  |        |          |
-| F  | F  |        |          |
+| T  | T  |   T    |    T     |
+| T  | F  |   F    |     T    |
+| F  | T  |    F   |    T     |
+| F  | F  |  F     |     F    |
 
 
 2. Prove a version of DeMorgan's Law:
 
 | P  | Q  | P \|\| Q | ! (P \|\| Q) | !P | !Q | !P && !Q |
 |:--:|:--:|:--------:|:------------:|:--:|:--:|:--------:|
-| T  | T  |          |              |    |    |          |
-| T  | F  |          |              |    |    |          |
-| F  | T  |          |              |    |    |          |
-| F  | F  |          |              |    |    |          |
+| T  | T  |    T     |      F       | F  | F  |     F    |
+| T  | F  |   T      |      T       | F  | T  |    F     |
+| F  | T  |   T      |     T        |  T | F  |    F     |
+| F  | F  |    F     |    T         | T  | T  |   T      |
 
 3. What does DeMorgan's state and how did you prove it for the case above?
   * **YOUR WRITING HERE**
+Demorgan states weather a statemnt is true or not. when P is true !P is false because ! means not equal. So when P doesnt equal to true !P equals true as shown on colum 5 and row 3.
