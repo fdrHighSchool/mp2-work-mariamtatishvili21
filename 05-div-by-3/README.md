@@ -7,3 +7,11 @@ Think of the following method header:
 `public static boolean isPrime(int num)`
 
   * **YOUR WRITING HERE**
+public static boolean isPrime(int num){
+    if( num%2 != 0 && num%3 != 0){
+      return true;
+    }
+    else{
+      return false;
+    }
+  }
