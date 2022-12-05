@@ -8,7 +8,7 @@
 000111222333444555666777888999
 ```
   * **YOUR WRITING HERE**
-
+I would make the statement repeat itself 3 times using a for loop and it does stuff.
 
 2. Write a plan for the following output:
 ```
@@ -19,3 +19,4 @@
 999998888877777666665555544444333332222211111
 ```
   * **YOUR WRITING HERE**
+I would make the print statement repeat itself 5 times using a for loop and it does stuff.
